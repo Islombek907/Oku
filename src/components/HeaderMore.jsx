@@ -1,14 +1,16 @@
+import oku from 'src/assets/images/Oku.svg'
+import exit from 'src/assets/images/exit.svg'
 const HeaderMore = () => {
   return (
     <section className="header__more">
         <div>
             <span>👋Reading is now</span>
-            <img src="src\assets\images\Oku.svg" alt=""/>
+            <img src={oku} alt=""/>
         </div>
         <div className="header__more-learn">
             <span>Learn more →</span>
            <div className="image-wrapper">
-              <img src="src\assets\images\exit.svg" alt=""/>
+              <img src={exit} alt=""/>
            </div>
         </div>
     </section>

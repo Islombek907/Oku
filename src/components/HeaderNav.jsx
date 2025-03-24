@@ -1,10 +1,11 @@
+import logo from 'src/assets/images/logo.svg'
 import HeaderContent from "./HeaderContent"
 import HeaderMore from "./HeaderMore"
 const HeaderNav = () => {
   return (
     <header className="header">
         <nav className="header__nav">
-            <a href="#"><img src="src\assets\images\logo.svg" alt="" /></a>
+            <a href="#"><img src={logo} alt="" /></a>
             <ul className="header__nav-list">
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Blog</a></li>
