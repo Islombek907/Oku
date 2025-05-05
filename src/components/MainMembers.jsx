@@ -13,7 +13,6 @@ const MainMembers = () => {
       </div>
       <div className="members__social">
         <div className="members__right">
-          <img src="" alt="" />
           <div className="members__right-card">
             <div className="fem">
               <img src={femIcon} alt="" />
