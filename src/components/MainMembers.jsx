@@ -1,3 +1,5 @@
+import femIcon from './../assets/images/fem.png'
+import JoeIcon from './../assets/images/Joe.svg'
 
 const MainMembers = () => {
   return (
@@ -14,7 +16,7 @@ const MainMembers = () => {
           <img src="" alt="" />
           <div className="members__right-card">
             <div className="fem">
-              <img src="src\assets\images\fem.png" alt="" />
+              <img src={femIcon} alt="" />
               <div>
                 <span className="name">fem</span>
                 <span className="name__email">@femke</span>
@@ -34,7 +36,7 @@ const MainMembers = () => {
           <img src="" alt="" />
           <div className="members__right-card">
             <div className="fem">
-              <img src="src\assets\images\Joe.svg" alt="" />
+              <img src={JoeIcon} alt="" />
               <div>
                 <span className="name">Joe Russell</span>
                 <span className="name__email">@Joebob</span>
