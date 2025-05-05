@@ -1,5 +1,5 @@
-import oku from 'src/assets/images/Oku.svg'
-import exit from 'src/assets/images/exit.svg'
+import oku from './../assets/images/Oku.svg'
+import exit from './../assets/images/exit.svg'
 const HeaderMore = () => {
   return (
     <section className="header__more">

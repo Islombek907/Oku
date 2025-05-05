@@ -1,4 +1,4 @@
-import logo from 'src/assets/images/logo.svg'
+import logo from './../assets/images/logo.svg'
 import HeaderContent from "./HeaderContent"
 import HeaderMore from "./HeaderMore"
 const HeaderNav = () => {

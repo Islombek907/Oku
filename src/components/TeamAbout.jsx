@@ -1,4 +1,4 @@
-import whattahell from 'src/assets/images/whattahell.png'
+import whattahell from './../assets/images/whattahell.png'
 const TeamAbout = () => {
   return (
     <section className="team">

@@ -1,4 +1,4 @@
-import weird__woman from 'src/assets/images/weird__woman.png'
+import weird__woman from './../assets/images/weird__woman.png'
 const HeaderContent = () => {
   return (
     <section className="container header__content">
